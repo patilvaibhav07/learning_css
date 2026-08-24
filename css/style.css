@@ -18,3 +18,30 @@
 .para1 {
     color: red;
 }
+
+.f_family1 {
+    font-family: cursive;
+
+}
+
+.f_family2 {
+    font-family: fantasy;
+}
+
+.f_family3 {
+    font-family: monospace;
+}
+
+.f_family4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f_family5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.f_height {
+    font-weight: 900;
+    font-size: 40px;
+    font-style: italic;
+}
