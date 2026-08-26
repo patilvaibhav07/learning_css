@@ -110,4 +110,49 @@
        /*ellipse*/
        background: radial-gradient(circle, black, red, white, blue);
     }
-    
+    .conic{
+        height: 600px;
+        /*ellipse*/
+        background:conic-gradient(from 150deg,purple, lightblue); 
+    }
+    .flex-item{
+        background-color: blueviolet;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        color: white;
+        font-size: 50px;
+        border: 3px solid red;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /*space-evenly, space-between,space-around*/
+        justify-content: center;
+        list-style: none;
+    }
+    .flex_image{
+        height: 100%;
+    }
+    .bg_image_example{
+        background-color: black;
+       background-image: url(../images/swami_samarth_wallpaper.jpg );
+       background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+        /*background-postion:center;*/
+    }
+    .bg_heading{
+        font-family: cursive;
+        color: brown;
+        font-size: 50px;
+        text-align: right;
+    }     
+
